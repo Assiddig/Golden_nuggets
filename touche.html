@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Présentation du jeu</title>
+    <link rel="stylesheet" href="touche.css">
+</head>
+
+<body>
+    <div class="main-contenair">
+        <form>
+            <h1>Commandes de jeu</h1>
+        
+            <img src="game/images/commandes.png" alt="Description des touches du jeu">
+            
+            <div align="center">
+                <button type="button" onclick="redirectToGame()">Jouer</button>
+
+                <script>
+                    function redirectToGame() {
+                        window.location.href = 'game/game.html';
+                    }
+                </script>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

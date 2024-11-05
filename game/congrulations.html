@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Nugget</title>
+    <link rel="stylesheet" href="congrulations.css">
+</head>
+
+
+<body>
+    
+    <div class="box">
+        <h2>Félicitations</h2>
+        <img src="images/goldenNugget.png" alt="Pépite d'or" class="pepite-or">
+    </div>
+
+    <audio id="myAudio" loop>
+        <source src="sons/congrulations.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      
+    <script>
+        var audio = document.getElementById("myAudio");
+        audio.play();
+    </script>
+
+</body>
+</html>

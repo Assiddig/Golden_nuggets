@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+
+#world {
+    width: 1500px;
+    height: 700px;
+    margin: 15px auto;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid black;
+    background-image: url('images/2donjon.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+}
+
+#arrows {
+    width: 130px;
+    height: 90px;
+    background-image: url('images/arrows.png');
+    position: absolute;
+    background-size: cover;
+    left: 20px;
+    top: 600px;
+    z-index: 999;
+}
+
+#a {
+    width: 49px;
+    height: 47px;
+    background-image: url('images/a.png');
+    position: absolute;
+    background-size: cover;
+    left: 120px;
+    top: 590px;
+    display: none;
+    z-index: 998;
+}
+
+#z {
+    width: 49px;
+    height: 47px;
+    background-image: url('images/z.png');
+    position: absolute;
+    background-size: cover;
+    left: 120px;
+    top: 590px;
+    display: none;
+    z-index: 997;
+}
+
+#e {
+    width: 49px;
+    height: 47px;
+    background-image: url('images/e.png');
+    position: absolute;
+    background-size: cover;
+    left: 120px;
+    top: 590px;
+    display: none;
+    z-index: 996;
+}
+
+#r {
+    width: 49px;
+    height: 47px;
+    background-image: url('images/r.png');
+    position: absolute;
+    background-size: cover;
+    left: 120px;
+    top: 590px;
+    display: none;
+    z-index: 995;
+}
+
+#player {
+    width: 30px;
+    height: 45px;
+    background-image: url('images/joueurDroite.png');
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: 993;
+    position: absolute;
+    box-shadow: 0 0 50px 50px rgba(255, 255, 255, 0.2);
+}
+
+.lumens {
+    width: 34px;
+    height: 23px;
+    position: absolute;
+    background-image: url('images/fire.png');
+    background-size: cover;
+    opacity: 0;
+}
+
+.skeletons {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-image: url('images/skeleton.png');
+    background-size: cover;
+    opacity: 0.3;
+}
+
+.conversation-bubble{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    position: absolute;
+    background-color: burlywood;
+    transition: transform 3s ease-in-out;
+}
+
+#chest {
+    width: 40px;
+    height: 58px;
+    left: 870px;
+    top: 140px;
+    position: absolute;
+    background-image: url('images/gigaCoffre.png');
+    background-size: cover;
+    opacity: 0;
+}
+
+.trait {
+    position: absolute;
+    background-size: cover;
+    opacity: 0%;
+}
+
+.invisible {
+    opacity: 0%;
+}
+
+.blocks {
+    position: absolute;
+    background-color: red;
+}
+
+.voile-noir {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.80);
+}
